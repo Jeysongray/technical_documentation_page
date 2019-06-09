@@ -5,6 +5,7 @@
     <title>Technical Documentation Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
    
 </head>
 
@@ -25,100 +26,116 @@
 </ul>
 
    </nav>
-   <main id="main-doc"></main>
-    <section class="main-section" id="Introduction">
-        <header>Introduction</header>
-        <p>Web programming, also known as web development, is the creation of dynamic web applications. Examples of web
-            applications are social networking sites like Facebook or e-commerce sites like Amazon.
-        </p>
-        <p>There are two broad divisions of web development – front-end development (also called client-side development) and
-            back-end development (also called server-side development).</p>
-
-    </section>
-
-    <section class="main-section" id="Prerequisite">
-        <header>Prerequisite</header>
-        <p>This tutirial assumes you have zero experience coding. However, to follow the steps provided here with ease, you need
-            basic knowledge of how the World Wide Web works and computer usage. This means you should be familiar with keyboard
-            shortcuts such as: </p>
-        <code>Ctrl+s Ctrl+z Ctrl+v, etc.</code>
-        <p>Should you encounter any difficulties, apply your technical sophistication by simply 'Googling' the problem.</p>
-    </section>
-
-    <section class="main-section" id="Web_Tiers">
-        <header>Web Tiers</header>
-        <p>Front-end development refers to constructing what a user sees when they load a web application – the content, design
-            and how you interact with it. This is done with three codes – <strong>HTML</strong>, <strong>CSS</strong> and
-            <strong>JavaScript</strong>.
-        </p>
-        <i>After this lesson, you should be able to write sipmple HTML and CSS code like creating a HTML document and styling
-            it: </i>
+   <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Web programming, also known as web development, is the creation of dynamic web applications. Examples of web
+                applications are social networking sites like Facebook or e-commerce sites like Amazon.
+            </p>
+            <p>There are two broad divisions of web development – front-end development (also called client-side development)
+                and
+                back-end development (also called server-side development).</p>
         
-        <code>h1 {
-                     background-color: red;
-                     color: blue;
-              
-                  }
-              
-             This changes the text color of the h1 element to blue and gives it a background color of red. 
-              </code>
-        <code>
-            h1 { font-weight: bold; 
-             
-              }<br>
-              This makes the font bold.
-            </code>
-        <p>HTML, short for Hyper Text Markup Language, is a special code for ‘marking up’ text in order to turn it into a web
-            page. Every web page on the net is written in HTML, and it will form the backbone of any web application. CSS, short
-            for Cascading Style Sheets, is a code for setting style rules for the appearance of web pages. CSS handles the
-            cosmetic side of the web. Finally, JavaScript is a scripting language that’s widely used to add functionality and
-            interactivity to web pages. In HTML and CSS, the code for creating and styling document are known as tags or
-            elements and selectors respectively. Some examples below:</p>
-        <ul>
-            <li>Tables</li>
-            <li>Forms</li>
-            <li>Buttons</li>
-            <li>CSS grid</li>
-            <li>Paragraphs</li>
-        </ul>
-    </section>
+        </section>
+        
+        <section class="main-section" id="Prerequisite">
+            <header>Prerequisite</header>
+            <p>This tutirial assumes you have zero experience coding. However, to follow the steps provided here with ease, you
+                need
+                basic knowledge of how the World Wide Web works and computer usage. This means you should be familiar with
+                keyboard
+                shortcuts such as: </p>
+            <code class="codespan">Ctrl+s Ctrl+z Ctrl+v, etc.</code>
+            <p>Should you encounter any difficulties, apply your technical sophistication by simply 'Googling' the problem.</p>
+        </section>
+        
+        <section class="main-section" id="Web_Tiers">
+            <header>Web Tiers</header>
+            <p>Front-end development refers to constructing what a user sees when they load a web application – the content,
+                design
+                and how you interact with it. This is done with three codes – <strong>HTML</strong>, <strong>CSS</strong> and
+                <strong>JavaScript</strong>.
+            </p>
+            <i>After this lesson, you should be able to write sipmple HTML and CSS code like creating a HTML document and
+                styling
+                it: </i>
+        
+            <code class="codespan">h1 {
+                             background-color: red;
+                             color: blue;
+                      
+                          }
+                      
+                     This changes the text color of the h1 element to blue and gives it a background color of red. 
+                      </code>
+            <code class="codespan">
+                    h1 { font-weight: bold; 
+                     
+                      }<br>
+                      This makes the font bold.
+                    </code>
+            <p>HTML, short for Hyper Text Markup Language, is a special code for ‘marking up’ text in order to turn it into a
+                web
+                page. Every web page on the net is written in HTML, and it will form the backbone of any web application. CSS,
+                short
+                for Cascading Style Sheets, is a code for setting style rules for the appearance of web pages. CSS handles the
+                cosmetic side of the web. Finally, JavaScript is a scripting language that’s widely used to add functionality
+                and
+                interactivity to web pages. In HTML and CSS, the code for creating and styling document are known as tags or
+                elements and selectors respectively. Some examples below:</p>
+            <ul>
+                <li>Tables</li>
+                <li>Forms</li>
+                <li>Buttons</li>
+                <li>CSS grid</li>
+                <li>Paragraphs</li>
+            </ul>
+        </section>
+        
+        <section class="main-section" id="Text_Editors">
+            <header>Text Editors</header>
+            <p>Choosing a text editor also known as Integrated Development Environment is pretty easy and there's a whole lot to
+                choose from: Sublime, Bracket, Visual Studio Code, Atom, Notepad, Notepad++ and many more.</p>
+            <p>As a beginner, I would reccommend something simple like Notepad if you're using a windows OS or Notepad++. After
+                a
+                while, you may try some of the others and may come to find a preference. I especially like VS code as I have
+                worked
+                on all the IDEs mentioned above and just enjoy the VScode interface. But choosing an IDE should be the least of
+                your
+                worries at this point.</p>
+        </section>
+        
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <p>Writing your first HTML code is anything but complicated. In &lt;HTML5&gt;, which is the latest HTML version, you
+                begin by declaring a
+                &lt;!Doctype&gt; like so:</p>
+            <code class="codespan">
+                      &lt;!DOCTYPE html&gt;
+                &lt;html lang="en"&gt;
+                &lt;head&gt;
+                    &lt;meta charset="UTF-8"&gt;
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                    &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+                    &lt;title&gt;Hello World&lt;/title&gt
+                  &lt;/head&gt;
+                  &lt;body&gt;
+                    ...content of your web page goes here.
+                  &lt;/body&gt;
+                  </code>
+            <p>The above code is the standard declaration. You don't need to memorize this as a good number of text editors
+                declares
+                this for you. For instance, in VScode, type: </p>
+            <code>Ctrl+!+return and the entire doctype code above would be automatically displayed! Like I said, easy right?</code>
+        </section>
+        <section class="main-section" id="Sources">
+            <header>Sources</header>
+            <p>The content of this page was culled from different sources including online.</p>
+        </section>
+        <!-- <footer>&copy; Copyright 2019 Ijeoma Benson</footer> -->
 
-    <section class="main-section" id="Text_Editors">
-        <header>Text Editors</header>
-        <p>Choosing a text editor also known as Integrated Development Environment is pretty easy and there's a whole lot to
-            choose from: Sublime, Bracket, Visual Studio Code, Atom, Notepad, Notepad++ and many more.</p>
-        <p>As a beginner, I would reccommend something simple like Notepad if you're using a windows OS or Notepad++. After a
-            while, you may try some of the others and may come to find a preference. I especially like VS code as I have worked
-            on all the IDEs mentioned above and just enjoy the VScode interface. But choosing an IDE should be the least of your
-            worries at this point.</p>
-    </section>
-
-    <section class="main-section" id="Hello_World">
-        <header>Hello World</header>
-        <p>Writing your first HTML code is anything but complicated. In &lt;HTML5&gt;, which is the latest HTML version, you begin by declaring a
-            &lt;!Doctype&gt; like so:</p>
-        <code>
-              &lt;!DOCTYPE html&gt;
-        &lt;html lang="en"&gt;
-        &lt;head&gt;
-            &lt;meta charset="UTF-8"&gt;
-            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-            &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
-            &lt;title&gt;Hello World&lt;/title&gt
-          &lt;/head&gt;
-          &lt;body&gt;
-            ...content of your web page goes here.
-          &lt;/body&gt;
-          </code>
-        <p>The above code is the standard declaration. You don't need to memorize this as a good number of text editors declares
-            this for you. For instance, in VScode, type: </p>
-        <code>Ctrl+!+return and the entire doctype code above would be automatically displayed! Like I said, easy right?</code>
-    </section>
-    <section class="main-section" id="Sources">
-        <header>Sources</header>
-        <p>The content of this page was culled from different sources including online.</p>
-    </section>
-    <!-- <footer>&copy; Copyright 2019 Ijeoma Benson</footer> -->
+   </main>
+   
     
   
   
